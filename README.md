@@ -25,8 +25,9 @@ Data source is licensed and you can find more information from this link: https:
 We use Java to decode UMLS to edge list. You can find source code from this link: https://github.com/blpercha/umls-to-graph
 
 There are many ontologies are currently supported and provide hierarchical relationships from MRHIER.RRF \
-We choose to analyze National Cancer Institution (NCI) subgraph and expect to predict hidden relationships with our model. \
-The NCI graph visualiztion is shown below:
+We choose to analyze National Cancer Institution (NCI) subgraph and expect to predict hidden relationships with our model. 
+\
+The NCI graph visualiztion with neo4j databse is shown below:
 ![image](https://user-images.githubusercontent.com/73065775/177395527-aee81f17-f58f-421e-8bd1-b1f4cd1c868e.png)
 
 - NCI Thesaurus provides definitions, synonyms, and other information on nearly 10,000 cancers and related diseases, 17,000 single agents and related substances, and other topics related to cancer and biomedical research
